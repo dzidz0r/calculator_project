@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.whole {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.box {
+    background-color: #d8d9db;
+    color: black;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.operation {
+    background-color: #df974c;
+    color: white;
+}
+
+.screen {
+    height: 120px;
+    padding: 30px 5px;
+    font-size: 40px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.row-1 {
+    display: flex;
+    border: 1px solid black;
+    align-items: stretch;
+}
+
+.box {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.half-box {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.row-2 {
+    display: flex;
+    border: 1px solid black;
+    align-items: stretch;
+}
+
+.row-3 {
+    display: flex;
+    border: 1px solid black;
+    align-items: stretch;
+}
+
+.row-4 {
+    display: flex;
+    border: 1px solid black;
+    align-items: stretch;
+}
+
+.row-5 {
+    display: flex;
+    border: 1px solid black;
+    align-items: stretch;
+}
+
+.three-quarter-box {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+.box:hover {
+    background-color: #ebebeb;
+}
+
+.box:active {
+    background-color: #bbbcbe;
+}
